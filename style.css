@@ -17,10 +17,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
-    
 }
+
 .container h2 {
     color: rgb(15, 182, 104);
     font-weight: 100;
@@ -38,10 +36,10 @@ p {
   
 .container {
       display: block;
-      background-color: white;
-      width: auto;
+      background-image: linear-gradient(to right bottom, #ffffff, #ffffff, #0fb668);
+      /* width: 100%; */
       padding: 0% 30%;
-      
+      background-size: cover;
     
 }
   
@@ -69,8 +67,6 @@ img {
  
 #hireme {
       display: block;
-      /* margin: 0; */
-      /* width: 100vw!important; */
       background-color: white;
       width: auto;
       padding: 0% 30%;
@@ -147,7 +143,6 @@ hr {
 }
 
 #contatos {
-    /* background-color: rgb(60, 161, 114); */
     background-image: linear-gradient(110deg, #216d4d 0%, #52ad80 100%);
     border-radius: 15px;
     width: 90%;
